@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gæt et Tal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="game-container">
+    <h1>Gæt et tal mellem 1 og 20</h1>
+    <p>Gæt et nummer, og se om du har ret!</p>
+    <input type="number" id="guessInput" min="1" max="20" placeholder="Indtast et tal" />
+    <button id="submitGuess">Gæt!</button>
+    <p id="message"></p>
+    <p id="score">Antal forsøg: 0</p>
+    <p id="highscore">High-score: Ingen endnu</p>
+    <button id="resetGame">Nulstil spil</button>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
